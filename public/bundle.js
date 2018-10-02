@@ -90,10 +90,23 @@
 /*!********************!*\
   !*** ./src/app.js ***!
   \********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("console.log('app.js is running');\n\n//# sourceURL=webpack:///./src/app.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./utils.js */ \"./src/utils.js\");\n//import './utils.js';\r\n\r\n\r\nconsole.log('app.js is running');\r\nconsole.log(Object(_utils_js__WEBPACK_IMPORTED_MODULE_0__[\"square\"])(2));\r\nconsole.log(Object(_utils_js__WEBPACK_IMPORTED_MODULE_0__[\"add\"])(2, 5));\n\n//# sourceURL=webpack:///./src/app.js?");
+
+/***/ }),
+
+/***/ "./src/utils.js":
+/*!**********************!*\
+  !*** ./src/utils.js ***!
+  \**********************/
+/*! exports provided: square, add */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"square\", function() { return square; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"add\", function() { return add; });\nconsole.log(\"utils.js running\");\r\n\r\nconst square = (x) => x * x;\r\nconst add = (a, b) => a + b;\r\n\r\n\n\n//# sourceURL=webpack:///./src/utils.js?");
 
 /***/ })
 
