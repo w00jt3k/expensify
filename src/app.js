@@ -1,7 +1,6 @@
-//import './utils.js';
-import sub, { square, add } from './utils.js';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-console.log('app.js is running');
-console.log(square(2));
-console.log(add(2, 5));
-console.log(sub(100, 81));
+const template = <p>Testing 123412341234</p>;
+
+ReactDOM.render(template, document.getElementById('app'));
